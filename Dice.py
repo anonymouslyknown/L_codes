@@ -21,7 +21,7 @@ def dice():
             time.sleep(0.52)
             print(random.randint(min,max))
             print(random.randint(min,max))
-            dice01 = input('do you want to roll the dice again?y/n')
+            dice01 = input('do you want to roll the dice again2?y/n')
             if dice01 == "N" or dice01 == "n":
                 print("ok then!")
 
