@@ -1,11 +1,10 @@
-from random import randint
+import random
 
 t = ["stone", "paper", "scissor" ]
-computer = t[randint(0,2)]
 
 play = 'y'
 while play == 'y':
-
+    computer = random.choice(t)
     user = input("choose one :stone , paper, scissor? ")
     if user == computer:
         print('DRAW!The computer\' choice was ',computer)
